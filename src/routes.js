@@ -10,8 +10,8 @@ router.get('/users', auth, users.getUser)
 router.post('/users/login', users.login)
 router.post('/users/logout', auth, users.logout)
 router.post('/users', users.createUser)  // signup
-router.patch('/users/:id', auth, users.updateUser)
-router.delete('/users/:id', auth, users.deleteUser)
+router.patch('/users', auth, users.updateUser)
+router.delete('/users', auth, users.deleteUser)
 
 router.get('/todos/:id', auth, todos.getTodo)
 router.get('/todos', auth, todos.getTodos)
