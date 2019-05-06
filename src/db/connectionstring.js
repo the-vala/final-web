@@ -1,0 +1,1 @@
+module.exports.connectionURL = 'mongodb+srv://admin:taquitos@cluster0-xg9bk.mongodb.net/clase?retryWrites=true'
